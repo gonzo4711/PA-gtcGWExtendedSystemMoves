@@ -1,0 +1,28 @@
+{
+    "context": "client",
+    "identifier": "com.pa.gtc.gw_extended_system_moves",
+    "display_name": "Galactic War extended System moves",
+    "description": "GW: Move over any explored systems",
+    "author": "GTC-Gonzo",
+    "version": "1.0",
+    "signature": "not yet implemented",
+    "priority": 100,
+    "id": "gtcGWExtendedSystemMoves",
+    "forum": "",
+    "category": [
+        "in-game",
+        "galactic-war"
+    ],
+    "scenes": {
+        "gw_play": [
+            "coui://ui/mods/gtcGWExtendedSystemMoves/gtc_gw_play.js"
+        ],
+        "settings": [
+            "coui://ui/mods/gtcGWExtendedSystemMoves/gtc_settings.js"
+        ]
+    },
+    "requires": [],
+    "date": "2014/06/19",
+    "build": "67523",
+    "enabled": true
+}
