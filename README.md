@@ -1,4 +1,4 @@
-PA-gtcGWExtendedMoves
+PA-gtcGWExtendedSystemMoves
 =====================
 
 Planetary Annihilation Mod - Move over explored systems (Galactic War)
