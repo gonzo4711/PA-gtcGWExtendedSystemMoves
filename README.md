@@ -10,13 +10,24 @@ If you explored the left-side of an Galayx and you will continue on the right-si
 
 ### What are the features?
 
-Now you can easily move from any explored system to any other explored system.
-Moving from a non-nearby system to an enemy system is impossible.
+Now you can easily move from any explored system to any other explored (or connected-enemy) system.
 
-Calculating the smallest route between two systems is very hard for slow PC's or a large-explored-galaxy.
-So, to prevent - so there can be a delay (1-2 sec) after clicking on a system and see any "JUMP", "EXPLORE","FIGHT" Button.
 
-To prevent such a delay, you can manage the maximum move size in the Settings (UI)
+***************************************************************************************************************************************************
+
+
+### Updatelog:
+
+#### Version 1.1
+* Bugfix in routing (couldn't find the smallest route in some cases)
+* Faster pathfinding (only stores the closest route, skips possible larger routes)
+* Removed "step-setting" from Settings-UI-Tab (not necessary anymore)
+* Caching for the last route (no re-calculation after click on "JUMP")
+* Moving to any connected enemy-system is possible now
+
+
+***************************************************************************************************************************************************
+
 
 ### More information about PA can be found here
 http://www.uberent.com/pa/
